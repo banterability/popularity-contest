@@ -7,7 +7,7 @@ A Google App Engine project to track the popularity of stories on a website with
 On pages you want to track, send a GET request (either using a JSONP AJAX request or a dummy image) to /count on your Popularity Contest instance with `url` and `title` parameters.
 
 ##Here be dragons
-This version burns through through an **insane** number of task queue requests. You'll start getting in to trouble above 20,000 pageviews/day on the monitored site. 
+This version burns through through an **insane** number of task queue requests. You'll start getting in to trouble above 40,000 pageviews/day on the monitored site. 
 
 ##Roadmap
 - API

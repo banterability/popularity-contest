@@ -1,0 +1,5 @@
+#Popularity Contest
+
+By Jeffrey Long
+
+__Here be dragons__: This first pass burns through through an **insane** number of task queue requests.

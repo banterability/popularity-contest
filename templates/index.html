@@ -1,0 +1,18 @@
+<h1>Results</h1>
+
+<style type="text/css" media="screen">
+    table td{
+        padding:5px 10px;
+    }
+    li table{
+        display:none;
+    }
+</style>
+
+<ol>
+{% for item in results %}
+    <li style="margin:15px 0;">
+        <a href="{{ item.url }}">{{ item.title }}</a> -- {{ item.score }}
+    </li>
+{% endfor %}
+</ol>

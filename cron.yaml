@@ -1,0 +1,10 @@
+cron:
+- description: update scores
+  url: /cron/score/
+  schedule: every 1 hours synchronized
+- description: clear expired results
+  url: /cron/sweep/
+  schedule: every 3 hours
+- description: clear homepage cache
+  url: /cron/homepage/
+  schedule: every 15 minutes

@@ -1,17 +1,17 @@
 #Popularity Contest
 
-A Google App Engine project to track the popularity of stories on a website with configurable rate of popularity decay and window of consideration.
+Track the popularity of items on your website with Google App Engine.
 
 ##Usage
 
-On pages you want to track, send a GET request (either using a JSONP AJAX request or a dummy image) to /count on your Popularity Contest instance with `url` and `title` parameters.
+On pages you want to track, send a GET request to /count on your _Popularity Contest_ instance with `url` and `title` parameters.
 
 ##Here be dragons
-This version burns through through an **insane** number of task queue requests. You'll start getting in to trouble above 40,000 pageviews/day on the monitored site. 
+This version of the code burns through an **insane** number of task queue requests. Trouble starts above 40,000 pageviews/day on the monitored site. 
 
 ##Roadmap
 - API
-- Sexier interface
+- Sexier frontend
 
 ##License
 
